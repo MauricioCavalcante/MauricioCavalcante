@@ -1,0 +1,5 @@
+- 👋 Hello, I'm @MauricioCavalcante
+- 👀 I'm interested in systems development
+- 🌱 I'm currently learning about tools for frontend development
+- 📫 Contact me through my website or by email: mauricio.cavalcanter@gmail.com
+- ⚡ Curiosity: I am constantly evolving, each obstacle is a reason to overcome myself.
