@@ -1,5 +1,6 @@
-- 👋 Hello, I'm @MauricioCavalcante
-- 👀 I'm interested in systems development
-- 🌱 I'm currently learning about tools for frontend development
-- 📫 Contact me through my website or by email: mauricio.cavalcanter@gmail.com
-- ⚡ Curiosity: I am constantly evolving, each obstacle is a reason to overcome myself.
+- 👋 Olá, Sou @MauricioCavalcante
+- 👀 Eu sou desenvolvedor Front-end
+- 🌱 Siga-me no instagram: @omauricio.dev
+- 📫 Ou entre em contato atráves do email: mauricio.cavalcanter@gmail.com
+- ⚡ Meus projetos serão publicados aqui e no meu site: https://mauriciocavalcante.github.io/quem-sou-eu
+- 
