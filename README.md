@@ -3,4 +3,3 @@
 - 🌱 Siga-me no instagram: @omauricio.dev
 - 📫 Ou entre em contato atráves do email: mauricio.cavalcanter@gmail.com
 - ⚡ Meus projetos serão publicados aqui e no meu site: https://mauriciocavalcante.github.io/quem-sou-eu
-- 
