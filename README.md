@@ -1,5 +1,4 @@
-- 👋 Olá, Sou @MauricioCavalcante
-- 👀 Eu sou desenvolvedor Front-end
-- 🌱 Siga-me no instagram: @omauricio.dev
-- 📫 Ou entre em contato atráves do email: mauricio.cavalcanter@gmail.com
-- ⚡ Meus projetos serão publicados aqui e no meu site: https://mauriciocavalcante.github.io/quem-sou-eu
+# MeuSite
+
+Esse sou eu Maurício Cavalcante, aspirante a desenvolvedor
+Para sempre estudante com muita dedicação e vontad.
