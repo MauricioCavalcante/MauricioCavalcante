@@ -25,6 +25,7 @@
 
 .topo-texto{
     color: #d5dee6;
+    animation: texto 3s ease-in-out;
 }
 
 .topo-img{
@@ -117,7 +118,7 @@ footer{
     color: white;
 }
 
-/* Recusros oferecido ----------------------------------------------------------------------------- */
+/* HABILIDADES ----------------------------------------------------------------------------- */
 
 
 /* login ------------------------------------------- */
@@ -349,17 +350,6 @@ option{
     animation: rotateCircle 2s linear infinite;
 }
 
-@keyframes changeColor {
-    0%, 100% { border-color: red; }
-    25% { border-color: blue; }
-    50% { border-color: green; }
-    75% { border-color: yellow; }
-}
-
-@keyframes rotateCircle {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
-}
 
 .card-3{
     width: 300px;
@@ -381,4 +371,36 @@ option{
     background-size: 20%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+.navbar-expand-sm .navbar-nav .nav-link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* animaçoes ------------------------------------------------------------ */
+
+@keyframes changeColor {
+    0%, 100% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: yellow; }
+}
+
+@keyframes rotateCircle {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0deg);
+    }
+    
 }
