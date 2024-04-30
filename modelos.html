@@ -12,15 +12,15 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm bg-black">
-      <div class="container">
+    <nav class="navbar navbar-expand-sm bg-black" data-bs-theme="dark">
+
       <a class="navbar-brand" href="index.html">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 287" version="1.1">
               <path d="M 69.148 13.902 C 55.155 18.765, 48.294 33.232, 54.400 45 C 57.993 51.925, 188.046 180.383, 195.210 184.084 C 207.481 190.422, 211.058 188.187, 249.500 150.164 C 350.695 50.072, 351.142 49.618, 353.589 44.500 C 362.562 25.737, 342.080 6.070, 323.066 15.190 C 319.818 16.747, 308.249 27.547, 283 52.588 C 250.068 85.250, 227.253 107.727, 210.770 123.748 L 204.040 130.289 186.770 112.805 C 177.272 103.189, 165 91.150, 159.500 86.050 C 154 80.951, 136 63.437, 119.500 47.131 C 83.807 11.859, 80.778 9.860, 69.148 13.902 M 66 142.449 C 60.684 145.232, 57.920 148.049, 55.159 153.500 C 52.249 159.245, 50.706 251.588, 53.386 259.656 C 60.244 280.305, 82.874 282.272, 95.839 263.346 C 99.030 258.688, 99.254 159.353, 96.088 153.210 C 90.183 141.755, 76.603 136.898, 66 142.449 M 325.759 141.366 C 320.048 143.491, 317.553 145.449, 314.301 150.359 L 311.323 154.855 310.662 177.589 C 309.350 222.662, 309.793 259.736, 311.680 262.785 C 323.399 281.722, 346.458 280.429, 353.946 260.416 C 356.902 252.514, 356.602 159.741, 353.601 154 C 348.008 143.299, 335.642 137.687, 325.759 141.366"/>
           </svg>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
@@ -39,13 +39,13 @@
     </nav>
   </header>
 
-  <div class="container-fluid text-center mt-4"><h4>Possuo habilidades para desenvolver:</h4></div>
+  <div class="container text-center mt-4 borda"><h4>Possuo habilidades para desenvolver:</h4></div>
   <main>
     <section class="d-flex justify-content-center">
       <div class="section-login">
         <h3 class="p-3 d-flex justify-content-center"><strong>Telas de login/cadastro</strong></h3>
         <div class="row d-flex justify-content-center">
-          <div class="col-auto m-auto p-4">
+          <div class="col-auto p-4">
             <form action="" class="login-container p-4" method="POST">
               <div class="d-flex justify-content-center">
                 <a class="navbar-brand" href="index.html">
@@ -76,7 +76,7 @@
               <p>Ou faça sua conta?<a href="">Cadastrar-se</a></p>
             </form>
           </div>
-          <div class="col-auto m-auto">
+          <div class="col-auto">
             <form action="" class="login-container p-4" method="POST">
               <div class="d-flex justify-content-center">
                 <a class="navbar-brand" href="index.html">
@@ -186,9 +186,9 @@
     </section>
     <hr>
     <section class="section-3 container mb-4">
-      <h3 class="p-3 d-flex justify-content-center color"><strong>Formulários</strong></h3>
-      <div class="row d-flex justify-content-center color">
-        <div class="col-md">
+      <h3 class="p-3 d-flex justify-content-center"><strong>Formulários</strong></h3>
+      <div class="row">
+        <div class="col-md d-flex justify-content-center mb-3">
           <div class="form-area p-3">
             <h4 class="p-3">Formulário</h4>
             <form>
@@ -275,10 +275,10 @@
       </div>
     </section>
     <hr>
-    <section class="section-4 container-fluid mb-4">
+    <section class="container-fluid mb-4">
         <h3 class="d-flex justify-content-center p-3"><strong>Estilos personalizadas</strong></h3>
-        <div class="row">
-          <div class="col">
+        <div class="row d-flex justify-content-center borda">
+          <div class="col-auto">
             <div class="card-1 m-3">
               <a class="navbar-brand" href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 287" version="1.1">
@@ -287,7 +287,7 @@
               </a>
             </div>
           </div>
-          <div class="col">
+          <div class="col-auto">
             <div class="card-2 m-3">
               <div class="card-2-circle"></div>
               <div class="card-2-border center">
@@ -299,7 +299,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-auto">
             <div class=" card m-3 card-3 border-secondary">
               <div class="card-header d-flex justify-content-center" style="width: 100%;">
                 <a class="navbar-brand" href="index.html">
@@ -323,8 +323,7 @@
     </section>
   </main>
 
-  <footer class="container-fluid d-flex justify-content-center">
-    <button id="btnToTop"><i class="bi bi-arrow-up-square"></i></button>
+  <footer class="container d-flex justify-content-center borda">
     <p>&copy; 2024 | <a style="text-decoration: none; color: black" href="mailto:mauricio.cavalcanter@gmail.com">Mauricio</a></p> 
   </footer>
 

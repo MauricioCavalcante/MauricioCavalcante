@@ -19,6 +19,10 @@
         width: 60px;
         fill: #ffffff;
     }
+
+    & .navbar-toggler {
+        background: #ffffff;
+    }
 }
 
 /* About------------------------------------------ */
@@ -79,11 +83,6 @@
 
 .section-login{
     max-width: 800px;
-}
-
-.centralizar {
-    height: 100vh;
-    perspective: 1000px;
 }
 
 .login-container {
@@ -330,11 +329,7 @@
 
 /* cards---------------------------------------------------- */
 
-.section-4{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .card-1 {
     width: 300px;
