@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.galeria{
+    padding: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.box{
+    display: flex;
+    gap: 1em;
+    transition: opacity 0.6s ease;
+}
+
+.box:hover > :not(:hover){
+    opacity: 0.725;
+    scale: 0.9;
+}
+
+img, col-auto {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+}
+
+/* ----- */
+
+.elementoP{
+    margin: 25px;
+    width: 150px;
+    height: auto;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bttn{
+    cursor: pointer;
+}
+
+.dash{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+#bttn.open
+.dash:nth-child(1) {
+    transform: rotate(45deg) translate(9px, 7px);
+    background-color: red;
+}
+
+#bttn.open
+.dash:nth-child(2) {
+    opacity: 0;
+}
+
+#bttn.open
+.dash:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+    background-color: red;
+}
+
+
+.border-1{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.377);
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    animation: spin 1s linear infinite;
+}
+
+.giro{
+    width: 20px;
+    height: 20px;
+    background: red;
+    
+    top: 10px;
+    left: 10px;
+}
+
+.border-2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+@keyframes spin {
+    0% {rotate: 0;}
+    100% {rotate: 360deg;}
+}
