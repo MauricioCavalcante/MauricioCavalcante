@@ -81,7 +81,7 @@
 
 /* login ------------------------------------------- */
 
-.section-login{
+/* .section-login{
     max-width: 800px;
 }
 
@@ -170,12 +170,12 @@
         transform: scale(0.95);
     }
 
-}
+} */
 
 
 
 /* navegacao estatica ------------------------------- */
-
+/* 
 .section-2{
     max-width: 1000px;
 
@@ -212,11 +212,11 @@
             display: block;
         }
     }
-}
+} */
 
 
 /* formularios ----------------------------------------- */
-.section-3{
+/* .section-3{
     max-width: 900px;
 
     & .form-area{
@@ -321,17 +321,11 @@
         }
 
     }
-}
-
-
-
-
+} */
 
 /* cards---------------------------------------------------- */
 
-
-
-.card-1 {
+/* .card-1 {
     width: 300px;
     height: 400px;
     display: flex;
@@ -401,13 +395,13 @@
         width: 60px;
         fill: #020202;
     }
-}
+} */
 
 
 
 /* animaçoes ------------------------------------------------------------ */
 
-@keyframes changeColor {
+/* @keyframes changeColor {
     0%, 100% { border-color: red; }
     25% { border-color: blue; }
     50% { border-color: green; }
@@ -429,7 +423,7 @@
         transform: translateX(0deg);
     }
     
-}
+} */
 
 
 #scrollToTopBtn {
@@ -466,4 +460,11 @@
 
 #btnToTop:hover {
     background-color: #555;
+}
+
+.project-mjf{
+
+    a{
+        color: black;
+    }
 }

@@ -6,7 +6,10 @@
     <title>Maurício Cavalcante</title>
     <link rel="shortcut icon" href="icones/icone.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="">
+
 </head>
 <body>
     <header>
@@ -36,41 +39,47 @@
             </div>
         </nav>
     </header>
-    
-    <main class="container d-flex justify-content-end p-4 ps-4 mt-5 ">
-        <div class="row w-80">
-            <div class="col-md mt-3"> 
 
-                <h1>Maurício Cavalcante</h1>
-                <p class="mt-4">
-                    💻 | Desenvolvedor Frontend; <br>
-                    👨🏼‍💻 | Analista e desenvolvedor de sistemas; <br>
-                    📚 | Movido pelo conhecimento; <br>
+    <main>
+        <div class="container text-center m-4"><h4>Meus projetos:</h4></div>
+        <section class="container">
+            <div class="project-mjf">
+                <a href="https://majuferreira.com/" target="_blank" class="d-flex align-items-baseline gap-2">
+                    <h3>Maju Ferreira | Consultas</h3>
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                <p>Site desenvolvido para a médica Maria Júlia Ferreira (Maju) para captação de pacientes que desejam entrar em sua lista de espera.</p>
+                <div class="d-flex justify-content-center">
+                    <img class="border img-fluid" src="./imagens/projetos/maju-web.png" alt="Projeto Maju Ferreira">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>Perform 360 | Controle de Qualidade</h3>
+                <p>Sistema desenvolvido em Laravel utilizando Breeze para autenticação, para gestão de qualidade no atendimentos do ServiceDesk interno da GlobalHitss.
+                <br>Acesso exclusivo a funcionários da empresa.</p>
+                <div class="mb-3">
+                    <img class="border img-fluid" src="./imagens/projetos/perform-login.png" alt="Projeto Perform360-login">
+                </div>
+                <div>
+                    <img class="border img-fluid" src="./imagens/projetos/perform-dashboard.png" alt="Projeto Perform360-dashboard">    
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>Hidro Instrumentação</h3>
+                <p>Primeiro sistema de controle do Centro de Instrumentação e Logística da Agência Nacional de Águas e Saneamento Básico
+                    <br>Desenvolvido para gestão de manutenção de equipamentos e insumos sob responsabilidade do setor.
+                    <br> <ul> Controle:
+                        <li>De envio e recolhimento de material</li>
+                        <li>De valores e quantidade em estoque</li>
+                        <li>De manutenção de equipamentos </li>
+                    </ul>
                 </p>
-                <div class="container text-center container-icon">
-                    <a target="_blank"> <button id="enviarWhatsapp" class="icon-button icon whatsapp m-2"></button></a>
-                    <a href="https://www.linkedin.com/in/maur%C3%ADcio-cavalcante-b382a3196/" target="_blank"><button class="icon-button icon linkedin m-2"></button></a>
-                    <a href="https://github.com/MauricioCavalcante" target="_blank"><button class="icon-button icon github m-2"></button></a>
-                    <a href="https://www.instagram.com/omauricio.dev/?next=%2F" target="_blank"><button class="icon-button icon instagram m-2"></button></a>     
-                </div>
-                <div class="mt-5">
-                    <figure class="text-end">
-                        <blockquote class="blockquote">
-                            <p>“O importante é não parar de questionar; a curiosidade tem sua própria razão de existir”</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                            <cite title="Source Title">Albert Einstein</cite>
-                        </figcaption>
-                    </figure>
-                </div>
             </div>
-            <div class="col-md text-center">
-                <img src="imagens/corpo.jpeg" style="border-radius: 15px; padding: 10px; height: 400px;" alt="Foto Mauricio">
-            </div>
-        </div>
+
+        </section>
     </main>
 
-    <script src="./scripts/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
